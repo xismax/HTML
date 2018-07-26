@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <title>Mi primera web</title>    
+    </head>
+    <body>
+        <h1>Titulo de mi web</h1>
+        <h2>Bienvenidos a mi web</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Morbi venenatis mattis velit, in condimentum mi vestibulum a. Praesent faucibus ante at urna mattis finibus feugiat in enim. Nunc porttitor nisi sit amet odio interdum lobortis. In rutrum non arcu fermentum semper. Aenean sagittis, tellus in interdum placerat, turpis nulla suscipit eros, eget hendrerit risus felis in leo. Sed ut aliquet mauris. Ut volutpat quam risus, non blandit nibh imperdiet id. Morbi et quam in purus aliquet fringilla. In ornare est massa, at euismod urna placerat et. Pellentesque in dui libero. Vivamus eleifend eu felis sit amet consectetur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br/> <br/> elit. Morbi venenatis mattis velit, in condimentum mi vestibulum a. Praesent faucibus ante at urna mattis finibus feugiat in enim. Nunc porttitor nisi sit amet odio interdum lobortis. In rutrum non arcu fermentum semper. Aenean sagittis, tellus in interdum placerat, turpis nulla suscipit eros, eget hendrerit risus felis in leo. Sed ut aliquet mauris. Ut volutpat quam risus, non blandit nibh imperdiet id. Morbi et quam in purus aliquet fringilla. In ornare est massa, at euismod urna placerat et. Pellentesque in dui libero. Vivamus eleifend eu felis sit amet consectetur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis mattis velit, in condimentum mi vestibulum a. Praesent faucibus ante at urna mattis finibus feugiat in enim. Nunc porttitor nisi sit amet odio interdum lobortis. In rutrum non arcu fermentum semper. Aenean sagittis, tellus in interdum placerat, turpis nulla suscipit eros, eget hendrerit risus felis in leo. Sed ut aliquet mauris. Ut volutpat quam risus, non blandit nibh imperdiet id. Morbi et quam in purus aliquet fringilla. In ornare est massa, at euismod urna placerat et. Pellentesque in dui libero. Vivamus eleifend eu felis sit amet consectetur.
+        </p>
+
+        <hr/>
+
+        <h2>Imagenes en HTML</h2>
+        <img src="imagenes\perro.jpg" alt="imagen de un perro" title="foto de perro" width="500px">
+        
+        <hr/>
+
+        <h3>Tercer encabezado de la pagina</h3>
+        <p>
+            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong>  Morbi venenatis mattis velit, <em>in condimentum mi vestibulum</em>  a. Praesent faucibus ante at urna mattis finibus feugiat in enim. <span id="resaltado" class="rojo amarillo">Nunc porttitor nisi sit amet odio interdum lobortis. In rutrum non arcu fermentum semper.</span>  Aenean sagittis, tellus in interdum placerat, turpis nulla suscipit eros, eget hendrerit risus felis in leo. Sed ut aliquet mauris. 
+            <blockquote>
+                Ut volutpat quam risus, non blandit nibh imperdiet id. Morbi et quam in purus aliquet fringilla. In ornare est massa, at euismod urna placerat et. Pellentesque in dui libero. Vivamus eleifend eu felis sit <i>amet consectetur.</i> 
+            </blockquote>
+        </p>
+
+        <h3>Formulario</h3>
+            <form>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Escribre tu nombre...">
+                </p>
+
+                <p>
+                    <label for="descripcion">Descripcion</label>
+                    <textarea name="descripcion"></textarea>
+                </p>
+
+                <input type="radio" name="genero" value="hombre">Hombre<br/>
+                <input type="radio" name="genero" value="mujer">Mujer<br/>
+                <input type="radio" name="genero" value="nada">Nada<br/>
+
+                <select name="generodos" id="">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="nada">Nada</option>
+                </select>
+
+                <input type="submit" value="Enviar formulario"/>
+            </form>
+
+        <h3Listado de frutas></h3>
+            <ul>
+                <li>manzana</li>
+                    <ul>
+                        <li>roja</li>
+                        <li>verde</li>
+                    </ul>
+                <li>naranja</li>
+                <li>pera</li>
+                <li>sandia</li>
+            </ul>
+
+        <h3>Tablas</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Robles</td>
+                <td>España</td>
+            </tr>
+            <!-->
+                <tr>
+                <td>Kevin</td>
+                <td>Lopez</td>
+                <td>Mexico</td>
+                </tr>
+            <!-->
+            <tr>
+                <td>Kevin</td>
+                <td colspan="2" >Lopez</td>
+            </tr>    
+        </table>
+    </body>
+</html>
